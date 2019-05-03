@@ -1,0 +1,176 @@
+h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-display: 40px;
+}
+h2 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-display: 20px;
+    color: #4aaaa5;
+    margin: 1 1;
+}
+h3 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-display: 20px;
+}
+p {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-display: 1rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-flow: row wrap;
+}
+text {
+    font-family: "Montserrat", sans-serif;
+    font-display: 1rem;
+    margin-left: 8px;
+}
+label {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-display: 1rem;
+    margin-bottom: .5rem;
+    margin-top: .5rem;
+}
+body {
+    background-color: whitesmoke;
+    margin: 0 auto;
+    max-width: 100%;
+}
+header {
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    width: 70%;
+    clear: both;
+    margin: 0 auto;
+    margin-bottom: 0;
+}
+img {
+    clear: both;
+    display: flex;
+    flex-flow: column;
+}
+hr {
+    display: flex;
+    flex-flow: row;
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: grey;
+    text-align: center;
+    margin-top: 1rem;
+    padding: 1rem;
+    border-top: .5rem solid #4aaaa5;
+}
+.body-main {
+    max-width:960px; 
+    margin:0 auto;
+}
+.nav {
+    display: flex;
+    flex-flow: row wrap;
+    display: inline-block;
+    justify-content: space space-between;
+    width: 100%;
+    background: white;
+    clear: both;
+    margin: 0 auto;
+}
+.nav-text {
+    font-family: "Montserrat", sans-serif;
+    font-display: 2rem;
+}
+.nav-link {
+    display: flex;
+    flex-flow: column wrap;
+    color: gray;
+    text-align: center;
+    padding: 14px 16px;
+    padding-top: 50px;
+    text-decoration: none;
+    font-size: 17px;
+    overflow: hidden;
+    padding-bottom: 0;
+}
+.nav-links a:hover {
+    background-color: grey;
+    color: blue;
+}
+.nav-spacing {
+    width:70%; 
+    margin:0 auto;
+    display: flex;
+    flex-flow: row wrap;
+}
+.title {
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    flex-flow: column;
+    flex-basis: auto;
+    float: left;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 1rem;
+    position: center;
+    justify-content: left;
+    margin: 0;
+}
+.card {
+    display: flex;
+    box-sizing: border-box;
+    flex-flow: row wrap;
+    max-width:870px;
+    box-shadow: 0 4px 4px 0 grey;
+    padding: 2rem;
+    margin: 2rem 0rem 2rem 4rem;
+    background-color: white;
+    clear: both;
+}
+
+.card-content {
+    flex: 1 1 auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+.card-portfolio {
+    width: 75%;
+    justify-content: center;
+    display: flex;
+    flex-flow: row wrap;
+    float: left;
+    overflow: hidden;
+    background-color: white;
+    justify-content: left;
+}
+.img-portfolio {
+    display: flex;
+    flex-flow: column;
+    justify-content: right;
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+    clear: both;
+    position: relative;
+}
+.img {
+    position: absolute;
+    top: 100px;
+    background-color: #4aaaa5;
+    color: white;
+    width: 200px;
+    margin: 20px;
+}
+@media only screen and (max-width: 740px) {
+    .card {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: left;
+      margin: 0%;
+      padding: 0%;
+    }
+}
